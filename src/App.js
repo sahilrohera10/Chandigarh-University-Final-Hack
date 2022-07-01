@@ -14,9 +14,9 @@ import AddProduct from "./screens/AddProduct";
 import EditProduct from "./screens/EditProduct";
 import ProductDetail from "./screens/ProductDetail";
 import ShowProducts from "./screens/ShowProducts";
-import FoodMap from "./FoodOrdering/FoodMap";
-import Main from "./FoodOrdering/Main";
-import MenuPage from "./FoodOrdering/MenuPage";
+// import FoodMap from "./FoodOrdering/FoodMap";
+// import Main from "./FoodOrdering/Main";
+// import MenuPage from "./FoodOrdering/MenuPage";
 
 function App() {
   return (
@@ -34,8 +34,8 @@ function App() {
         <Route path="/products" element={<ShowProducts />} />
         <Route path="/product/edit/:id" element={<EditProduct />} />
         <Route path="/product/:id" element={<ProductDetail />} />
-        <Route path="campuseats" element={<Main />} />
-        <Route path="menupage" element={<MenuPage />} />
+        {/* <Route path="campuseats" element={<Main />} />
+        <Route path="menupage" element={<MenuPage />} /> */}
       </Routes>
 
       <Footer />
